@@ -33,7 +33,7 @@ SECRET_KEY = 'django-insecure-nwz$)j027by16%v4etw(^)ajiz5^#7b*4xj5n-7f8!o%&o-k5d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['chat-bot-g2jn.onrender.com']
+ALLOWED_HOSTS = ['chat-bot-g2jn.onrender.com', 'render.com']
 
 
 # Application definition
@@ -126,13 +126,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
+# STATICFILES_DIRS = [
+#     BASE_DIR / "static",
+# ]
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-ALLOWED_HOSTS = ['yourdomain.com', 'render.com', 'herokuapp.com']
-STATIC_ROOT = BASE_DIR / 'staticfiles'
