@@ -31,7 +31,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-nwz$)j027by16%v4etw(^)ajiz5^#7b*4xj5n-7f8!o%&o-k5d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['chat-bot-g2jn.onrender.com']
 
